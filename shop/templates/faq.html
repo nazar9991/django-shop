@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- FAQ Section -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .section {
+
+            padding: 60px 0;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: 700;
+        }
+        .faq-answer {
+            margin-top: 10px;
+        }
+    </style>
+    <section class="section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="section-title text-center">FAQ</h2>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Q: How do I place an order?</h5>
+                        <p class="faq-answer">A: To place an order, simply browse our products, add the items you want to your cart, and proceed to checkout. Follow the instructions to complete your purchase.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Q: What payment methods do you accept?</h5>
+                        <p class="faq-answer">A: We accept various payment methods, including credit/debit cards, PayPal, and bank transfers. You can select your preferred payment option at checkout.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Q: How can I track my order?</h5>
+                        <p class="faq-answer">A: Once your order has been shipped, we will send you a tracking number via email. You can use this number to track the status of your delivery on our website or the carrier's website.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Q: What is your return policy?</h5>
+                        <p class="faq-answer">A: We offer a 30-day return policy for most products. If you are not satisfied with your purchase, you can return it for a full refund or exchange. Please visit our return policy page for more details.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5 class="faq-question">Q: How can I contact customer service?</h5>
+                        <p class="faq-answer">A: You can contact our customer service team via email at support@youronlineshop.com or call us at (123) 456-7890. We are available Monday to Friday, 9 AM to 5 PM.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
